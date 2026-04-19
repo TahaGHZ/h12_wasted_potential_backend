@@ -1,0 +1,106 @@
+{
+  "region": "Gabès",
+  "hazard_source": {
+    "name": "GCT Chemical Complex (Ghannouch)",
+    "type": "hazard_source",
+    "latitude": 33.9250,
+    "longitude": 10.0810,
+    "priority": "CRITICAL",
+    "risk_factor": "Primary origin point for toxic air, chemical spill, and water contamination affecting the entire region."
+  },
+  "zones": [
+    {
+      "name": "Ghannouch Residential Area",
+      "type": "residential_area",
+      "latitude": 33.9150,
+      "longitude": 10.0750,
+      "priority": "HIGH",
+      "risk_factor": "Densely populated area with chronic exposure to industrial emissions."
+    },
+    {
+      "name": "Lycée Pilote de Gabès",
+      "type": "education_facility",
+      "latitude": 33.8881,
+      "longitude": 10.1105,
+      "priority": "HIGH",
+      "risk_factor": "High concentration of minors; limited self-evacuation capacity."
+    },
+    {
+      "name": "Faculté des Sciences de Gabès",
+      "type": "education_facility",
+      "latitude": 33.8753,
+      "longitude": 10.1064,
+      "priority": "MEDIUM",
+      "risk_factor": "High student density and presence of laboratories."
+    },
+    {
+      "name": "Hôpital Régional de Gabès 'Mohamed Ben Sassi'",
+      "type": "health_facility",
+      "latitude": 33.8825,
+      "longitude": 10.0986,
+      "priority": "CRITICAL",
+      "risk_factor": "Primary hospital with immobile patients; highly vulnerable."
+    },
+    {
+      "name": "Clinique El Amen",
+      "type": "health_facility",
+      "latitude": 33.8850,
+      "longitude": 10.1055,
+      "priority": "HIGH",
+      "risk_factor": "Secondary healthcare facility with vulnerable patients."
+    },
+    {
+      "name": "Marché Central de Gabès",
+      "type": "public_gathering",
+      "latitude": 33.8835,
+      "longitude": 10.1120,
+      "priority": "HIGH",
+      "risk_factor": "Very high civilian density, especially daytime exposure."
+    },
+    {
+      "name": "Gabès Corniche / Beach Area",
+      "type": "public_recreation",
+      "latitude": 33.8890,
+      "longitude": 10.1220,
+      "priority": "MEDIUM",
+      "risk_factor": "Public exposure to coastal contamination."
+    },
+    {
+      "name": "Port de Commerce de Gabès",
+      "type": "transport_hub",
+      "latitude": 33.8897,
+      "longitude": 10.1250,
+      "priority": "HIGH",
+      "risk_factor": "Risk of maritime pollution and economic disruption."
+    },
+    {
+      "name": "Oasis de Gabès (Chenini Nahal)",
+      "type": "fragile_ecosystem",
+      "latitude": 33.8760,
+      "longitude": 10.0850,
+      "priority": "CRITICAL",
+      "risk_factor": "Irreversible ecological damage and food/water security risk."
+    },
+    {
+      "name": "Barrage de l'Oued Gabès",
+      "type": "water_source",
+      "latitude": 33.8700,
+      "longitude": 10.0500,
+      "priority": "CRITICAL",
+      "risk_factor": "Primary agricultural and supplementary water reservoir contamination risk."
+    },
+    {
+      "name": "Siège du Gouvernorat de Gabès",
+      "type": "government",
+      "latitude": 33.8842,
+      "longitude": 10.1118,
+      "priority": "HIGH",
+      "risk_factor": "Critical for coordination of emergency response."
+    }
+  ],
+  "metadata": {
+    "schema_version": "1.0",
+    "use_case": "environmental_risk_routing",
+    "notes": "Priorities are inferred based on population vulnerability, critical infrastructure, and environmental impact."
+  }
+}

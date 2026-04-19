@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+httpx
+openai
+python-dotenv
+supabase
+google-genai
+langgraph
+openrouteservice
+pytest
